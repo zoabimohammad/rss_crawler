@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+	<title>Eclipse and Java Information</title>
+	<link>http://www.vogella.com</link>
+	<description>Eclipse and Java Information</description>
+	<language>en</language>
+	<copyright>Copyright hold by Lars Vogel</copyright>
+	<pubdate>Sun, 15 Jul 2018 22:00:22 +0300</pubdate>
+<item>
+	<title>RSSFeed</title>
+	<description>This is a description</description>
+	<link>http://rss.cnn.com/rss/edition.rss</link>
+	<author>nonsense@somewhere.de (Lars Vogel)</author>
+	<guid>http://rss.cnn.com/rss/edition.rss</guid>
+
+</item>
+
+</channel>
+</rss>
