@@ -8,7 +8,6 @@ public interface GenericDAO<E,K> {
     void remove(final List<K> keys);
     E add(final E entity);
     void remove(final K key);
-    E getReference(final K key);
     E find(final K key);
     E update(final E entity);
     List<E> findAll();

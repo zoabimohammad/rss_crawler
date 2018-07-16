@@ -38,10 +38,6 @@ public abstract class GenericServiceImpl<E, K> implements GenericService<E, K> {
         return genericDAO.find(key);
     }
 
-    @Override
-    public E getReference(K key) {
-        return genericDAO.getReference(key);
-    }
 
     @Override
     @Transactional(propagation = Propagation.REQUIRED)

@@ -43,10 +43,6 @@ public abstract class GenericDAOImpl <E, K> extends JdbcDaoSupport implements Ge
         return (E) entityManager.find(type, key);
     }
 
-    @Override
-    public E getReference(final K key) {
-        return entityManager.getReference(type, key);
-    }
 
     @Override
     public E add(final E entity) {
